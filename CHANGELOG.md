@@ -71,3 +71,24 @@ All notable changes to this Java book are documented in this file. Each chapter 
   - 4.2.4 do‑while loop
   - 4.3 loop control (break, continue, labeled statements)
   - 4.4 the break and continue with labels
+
+## [Version 1.5.1] - 2024-04-3
+
+### Added
+
+- **chapter 5: classes and objects**
+  - 5.1 defining classes (class)
+  - 5.2 fields (instance variables)
+  - 5.3 methods (instance methods)
+  - 5.4 constructors
+  - 5.4.1 default constructor
+  - 5.4.2 parameterized constructors
+  - 5.4.3 constructor overloading
+  - 5.4.4 copy constructors
+  - 5.5 the this keyword
+  - 5.6 the new keyword and object creation
+  - 5.7 access modifiers (public, protected, default, private)
+  - 5.8 static members (static fields, static methods, static blocks)
+  - 5.9 final keyword (final variables, methods, classes)
+  - 5.10 garbage collection and finalize() method
+  - 5.11 object lifecycle
