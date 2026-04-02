@@ -53,3 +53,21 @@ All notable changes to this Java book are documented in this file. Each chapter 
   - 3.8 unary operators
   - 3.9 operator precedence and associativity
   - 3.10 string concatenation (+)
+
+## [Version 1.4.1] - 2024-04-3
+
+### Added
+
+- **chapter 4: control flow**
+  - 4.1 conditional statements
+  - 4.1.1 if, else if, else
+  - 4.1.2 nested if
+  - 4.1.3 switch statement (traditional and enhanced with arrows, yield)
+  - 4.1.4 ternary operator
+  - 4.2 loops
+  - 4.2.1 for loop (traditional)
+  - 4.2.2 enhanced for loop (for‑each)
+  - 4.2.3 while loop
+  - 4.2.4 do‑while loop
+  - 4.3 loop control (break, continue, labeled statements)
+  - 4.4 the break and continue with labels
