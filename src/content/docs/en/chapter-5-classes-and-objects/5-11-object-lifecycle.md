@@ -42,3 +42,12 @@ p = null;        // object becomes unreachable
 **8. Memory reclamation** – memory is returned to the heap for reuse.
 
 ## Diagram
+
+Declaration → Instantiation → Initialization → Usage → Unreachable → GC → Reclamation
+
+**Best practices**:
+
+- Minimize object creation in performance‑critical loops.
+- Use object pooling for expensive objects.
+- Let GC handle memory; avoid manual interference.
+- Use `try‑with‑resources` for external resources.

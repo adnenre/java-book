@@ -42,3 +42,12 @@ p = null;        // l’objet devient inaccessible
 **8. Récupération de mémoire** – la mémoire est retournée au tas pour réutilisation.
 
 ## Schéma
+
+Déclaration → Instanciation → Initialisation → Utilisation → Inaccessible → GC → Récupération
+
+**Bonnes pratiques** :
+
+- Minimisez la création d’objets dans les boucles critiques.
+- Utilisez le pooling d’objets pour les objets coûteux.
+- Laissez le GC gérer la mémoire ; évitez les interférences manuelles.
+- Utilisez `try‑with‑resources` pour les ressources externes.
