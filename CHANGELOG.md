@@ -136,3 +136,17 @@ All notable changes to this Java book are documented in this file. Each chapter 
   - 8.6 private methods in interfaces (java 9+)
   - 8.7 functional interfaces and @functionalinterface
   - 8.8 marker interfaces (serializable, cloneable)
+
+## [Version 1.8.1] - 2024-04-3
+
+### Added
+
+- **chapter 9: packages and imports**
+  - 9.1 creating packages (package)
+  - 9.2 importing classes (import)
+  - 9.3 static imports (import static)
+  - 9.4 package access and protection
+  - 9.5 creating jar files
+  - 9.6 module system (java 9+)
+  - 9.6.1 module‑info.java
+  - 9.6.2 module dependencies and exports
