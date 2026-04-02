@@ -107,3 +107,18 @@ All notable changes to this Java book are documented in this file. Each chapter 
   - 6.5.2 recursion vs iteration
   - 6.6 method hiding (static methods)
   - 6.7 native methods (native keyword)
+
+## [Version 1.7.1] - 2024-04-3
+
+### Added
+
+- chapter 7: inheritance and polymorphism
+  - 7.1 extending classes (extends)
+  - 7.2 the object class and its methods (tostring, equals, hashcode, clone, finalize)
+  - 7.3 overriding methods (@override)
+  - 7.4 the super keyword
+  - 7.5 polymorphism (compile‑time vs runtime)
+  - 7.6 dynamic method dispatch
+  - 7.7 abstract classes and methods (abstract)
+  - 7.8 final classes and methods
+  - 7.9 inheritance and constructors (super() call)
