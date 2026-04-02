@@ -122,3 +122,17 @@ All notable changes to this Java book are documented in this file. Each chapter 
   - 7.7 abstract classes and methods (abstract)
   - 7.8 final classes and methods
   - 7.9 inheritance and constructors (super() call)
+
+## [Version 1.8.1] - 2024-04-3
+
+### Added
+
+- **chapter 8: interfaces**
+  - 8.1 defining interfaces (interface)
+  - 8.2 implementing interfaces (implements)
+  - 8.3 multiple inheritance via interfaces
+  - 8.4 default methods (default)
+  - 8.5 static methods in interfaces
+  - 8.6 private methods in interfaces (java 9+)
+  - 8.7 functional interfaces and @functionalinterface
+  - 8.8 marker interfaces (serializable, cloneable)
