@@ -1,0 +1,444 @@
+---
+title: Sommaire
+description: Sommaire, Débuter en Java
+template: splash # Remove or comment out this line to display the site sidebar on this page.
+---
+
+import { Card, CardGrid } from "@astrojs/starlight/components";
+import FileTree from "../../../components/FileTree.astro";
+
+<FileTree>
+- chapitre 1: introduction à java
+  - 1.1 historique et évolution de java
+  - 1.2 philosophie java (write once, run anywhere)
+  - 1.3 installer java (jdk, jre, jvm)
+  - 1.4 configurer votre environnement de développement (intellij, eclipse, vs code)
+  - 1.5 votre premier programme java
+  - 1.6 compiler et exécuter des programmes java (javac, java)
+  - 1.7 comprendre la plateforme java (jvm, bytecode)
+  - 1.8 éditions de java (se, ee, me)
+  - 1.9 historique et fonctionnalités par version de java
+- chapitre 2: variables et types de données primitifs
+  - 2.1 variables et identifiants
+  - 2.2 types primitifs
+  - 2.2.1 types entiers (byte, short, int, long)
+  - 2.2.2 types à virgule flottante (float, double)
+  - 2.2.3 type caractère (char)
+  - 2.2.4 type booléen (boolean)
+  - 2.3 littéraux et constantes (final)
+  - 2.4 conversion de type et casting
+  - 2.4.1 conversion implicite (élargissement)
+  - 2.4.2 conversion explicite (rétrécissement)
+  - 2.5 portée et durée de vie des variables
+  - 2.6 valeurs par défaut des primitifs
+  - 2.7 classes wrapper (integer, double, boolean, etc.) et autoboxing/unboxing
+- chapitre 3: opérateurs et expressions
+  - 3.1 opérateurs arithmétiques 
+  - 3.2 opérateurs d’affectation 
+  - 3.3 opérateurs relationnels 
+  - 3.4 opérateurs d’égalité 
+  - 3.5 opérateurs logiques 
+  - 3.6 opérateurs bit à bit 
+  - 3.7 opérateur ternaire 
+  - 3.8 opérateurs unaires 
+  - 3.9 précédence et associativité des opérateurs
+  - 3.10 concaténation de chaînes (+)
+- chapitre 4: flux de contrôle
+  - 4.1 instructions conditionnelles
+  - 4.1.1 if, else if, else
+  - 4.1.2 if imbriqué
+  - 4.1.3 instruction switch (traditionnelle et améliorée avec flèches, yield)
+  - 4.1.4 opérateur ternaire
+  - 4.2 boucles
+  - 4.2.1 boucle for (traditionnelle)
+  - 4.2.2 boucle for améliorée (for‑each)
+  - 4.2.3 boucle while
+  - 4.2.4 boucle do‑while
+  - 4.3 contrôle des boucles (break, continue, instructions étiquetées)
+  - 4.4 break et continue avec étiquettes
+- chapitre 5: classes et objets
+  - 5.1 définition de classes (class)
+  - 5.2 champs (variables d’instance)
+  - 5.3 méthodes (méthodes d’instance)
+  - 5.4 constructeurs
+  - 5.4.1 constructeur par défaut
+  - 5.4.2 constructeurs paramétrés
+  - 5.4.3 surcharge de constructeurs
+  - 5.4.4 constructeurs de copie
+  - 5.5 le mot‑clé this
+  - 5.6 le mot‑clé new et la création d’objets
+  - 5.7 modificateurs d’accès (public, protected, default, private)
+  - 5.8 membres statiques (champs statiques, méthodes statiques, blocs statiques)
+  - 5.9 mot‑clé final (variables finales, méthodes, classes)
+  - 5.10 ramasse‑miettes (garbage collector) et méthode finalize()
+  - 5.11 cycle de vie d’un objet
+- chapitre 6: méthodes (approfondissement)
+  - 6.1 signature de méthode et surcharge
+  - 6.2 passage de paramètres (passage par valeur)
+  - 6.3 varargs (arguments de longueur variable)
+  - 6.4 retour de valeurs
+  - 6.5 récursivité
+  - 6.5.1 cas de base et cas récursif
+  - 6.5.2 récursivité vs itération
+  - 6.6 masquage de méthodes (méthodes statiques)
+  - 6.7 méthodes natives (mot‑clé native)
+- chapitre 7: héritage et polymorphisme
+  - 7.1 étendre des classes (extends)
+  - 7.2 la classe object et ses méthodes (tostring, equals, hashcode, clone, finalize)
+  - 7.3 redéfinition de méthodes (@override)
+  - 7.4 le mot‑clé super
+  - 7.5 polymorphisme (compilation vs exécution)
+  - 7.6 dispatch dynamique des méthodes
+  - 7.7 classes et méthodes abstraites (abstract)
+  - 7.8 classes et méthodes finales
+  - 7.9 héritage et constructeurs (appel à super())
+- chapitre 8: interfaces
+  - 8.1 définir des interfaces (interface)
+  - 8.2 implémenter des interfaces (implements)
+  - 8.3 héritage multiple via les interfaces
+  - 8.4 méthodes par défaut (default)
+  - 8.5 méthodes statiques dans les interfaces
+  - 8.6 méthodes privées dans les interfaces (java 9+)
+  - 8.7 interfaces fonctionnelles et @functionalinterface
+  - 8.8 interfaces marqueurs (serializable, cloneable)
+- chapitre 9: paquetages et imports
+  - 9.1 créer des paquetages (package)
+  - 9.2 importer des classes (import)
+  - 9.3 imports statiques (import static)
+  - 9.4 accès et protection au niveau des paquetages
+  - 9.5 créer des fichiers jar
+  - 9.6 système de modules (java 9+)
+  - 9.6.1 module‑info.java
+  - 9.6.2 dépendances et exports des modules
+- chapitre 10: chaînes de caractères et leur manipulation
+  - 10.1 classe string (immuable)
+  - 10.2 méthodes de string (charat, length, substring, indexof, replace, split, etc.)
+  - 10.3 comparaison de chaînes (equals, equalsignorecase, compareto)
+  - 10.4 stringbuilder et stringbuffer (chaînes modifiables)
+  - 10.5 string joiner et string.join
+  - 10.6 string tokenizer
+  - 10.7 expressions régulières (java.util.regex)
+  - 10.7.1 pattern et matcher
+  - 10.7.2 syntaxe des regex
+  - 10.7.3 groupes et indicateurs
+- chapitre 11: tableaux
+  - 11.1 déclarer et créer des tableaux
+  - 11.2 accéder aux éléments d’un tableau
+  - 11.3 longueur d’un tableau
+  - 11.4 tableaux multidimensionnels
+  - 11.5 copier des tableaux (system.arraycopy, arrays.copyof)
+  - 11.6 classe utilitaire arrays (java.util.arrays)
+  - 11.6.1 tri (sort, parallelsort)
+  - 11.6.2 recherche (binarysearch)
+  - 11.6.3 remplissage (fill)
+  - 11.6.4 comparaison (equals, deepequals)
+  - 11.6.5 conversion en liste (aslist)
+  - 11.7 tableaux en dents de scie
+- chapitre 12: types énumérés
+  - 12.1 définir des énumérations (enum)
+  - 12.2 constantes et champs d’enum
+  - 12.3 méthodes d’enum (values, valueof, ordinal)
+  - 12.4 enum avec constructeurs et méthodes
+  - 12.5 enumset et enummap
+  - 12.6 utiliser des enum dans les instructions switch
+- chapitre 13: api date et heure (java.time)
+  - 13.1 date et calendar legacy (java.util.date, java.util.calendar)
+  - 13.2 nouvelle api date/heure (java 8+)
+  - 13.2.1 localdate, localtime, localdatetime
+  - 13.2.2 zoneddatetime, offsetdatetime
+  - 13.2.3 instant et duration
+  - 13.2.4 period
+  - 13.2.5 formatage et analyse (datetimeformatter)
+  - 13.2.6 ajusteurs temporels (temporal adjusters)
+  - 13.3 travailler avec les fuseaux horaires (zoneid, zoneoffset)
+- chapitre 14: collections (vue d’ensemble)
+  - 14.1 hiérarchie du framework collections
+  - 14.2 iterable et iterator
+  - 14.3 interface collection
+  - 14.4 génériques dans les collections
+  - 14.5 classes legacy (vector, stack, hashtable, enumeration)
+- chapitre 15: interface list
+  - 15.1 arraylist
+  - 15.1.1 créer un arraylist
+  - 15.1.2 ajouter et supprimer des éléments
+  - 15.1.3 itération et listiterator
+  - 15.1.4 tri (collections.sort, list.sort)
+  - 15.2 linkedlist
+  - 15.2.1 linkedlist comme list et deque
+  - 15.2.2 méthodes spécifiques à linkedlist
+  - 15.3 vector et stack
+  - 15.4 copyonwritearraylist (concurrent)
+- chapitre 16: interface set
+  - 16.1 hashset
+  - 16.1.1 hachage et hashcode()
+  - 16.1.2 considérations de performance
+  - 16.2 linkedhashset (ordre d’insertion)
+  - 16.3 treeset (sortedset)
+  - 16.3.1 comparable et comparator
+  - 16.3.2 méthodes de navigableset
+  - 16.4 enumset
+  - 16.5 copyonwritearrayset
+- chapitre 17: interfaces queue et deque
+  - 17.1 interface queue
+  - 17.1.1 linkedlist comme queue
+  - 17.1.2 priorityqueue
+  - 17.1.3 arraydeque
+  - 17.2 interface deque
+  - 17.2.1 opérations aux deux extrémités
+  - 17.2.2 pile (stack) avec deque
+  - 17.3 blockingqueue (concurrent)
+  - 17.3.1 arrayblockingqueue, linkedblockingqueue
+  - 17.3.2 priorityblockingqueue
+  - 17.3.3 delayqueue, synchronousqueue
+- chapitre 18: interface map
+  - 18.1 hashmap
+  - 18.1.1 travailler avec hashmap
+  - 18.1.2 facteur de charge et rehachage
+  - 18.2 linkedhashmap (ordre d’insertion, ordre d’accès)
+  - 18.3 treemap (sortedmap)
+  - 18.3.1 comparable et comparator
+  - 18.3.2 méthodes de navigablemap
+  - 18.4 hashtable (legacy)
+  - 18.5 enummap
+  - 18.6 weakhashmap
+  - 18.7 identityhashmap
+  - 18.8 concurrenthashmap et concurrentmap
+- chapitre 19: classes utilitaires
+  - 19.1 classe collections
+  - 19.1.1 tri, recherche, inversion, mélange
+  - 19.1.2 wrappers synchronisés
+  - 19.1.3 wrappers non modifiables
+  - 19.1.4 méthodes utilitaires (frequency, disjoint, addall, etc.)
+  - 19.2 classe arrays (couverte au chapitre 11)
+  - 19.3 classe objects (méthodes null‑safe, hash, tostring)
+- chapitre 20: exceptions et assertions
+  - 20.1 hiérarchie des exceptions (throwable, error, exception)
+  - 20.2 exceptions vérifiées vs non vérifiées
+  - 20.3 bloc try‑catch‑finally
+  - 20.4 try‑with‑resources (autocloseable)
+  - 20.5 blocs catch multiples
+  - 20.6 mots‑clés throw et throws
+  - 20.7 créer des exceptions personnalisées
+  - 20.8 exceptions chaînées
+  - 20.9 assertions (assert)
+  - 20.10 bonnes pratiques pour la gestion des exceptions
+- chapitre 21: entrées/sorties (java.io)
+  - 21.1 la classe file
+  - 21.2 flux d’octets (inputstream, outputstream, fileinputstream, fileoutputstream)
+  - 21.3 flux de caractères (reader, writer, filereader, filewriter)
+  - 21.4 flux tamponnés (bufferedreader, bufferedwriter)
+  - 21.5 printstream et printwriter
+  - 21.6 flux de données (datainputstream, dataoutputstream)
+  - 21.7 flux d’objets (objectinputstream, objectoutputstream) et sérialisation
+  - 21.8 mot‑clé transient
+  - 21.9 interface externalizable
+- chapitre 22: NIO et NIO.2 (java.NIO)
+  - 22.1 interface path et classe paths
+  - 22.2 classe files (lire, écrire, copier, déplacer, supprimer, walk, find)
+  - 22.3 systèmes de fichiers et espaces de stockage
+  - 22.4 buffers (bytebuffer, charbuffer)
+  - 22.5 canaux (filechannel, socketchannel, serversocketchannel)
+  - 22.6 sélecteurs et e/s non‑bloquantes
+  - 22.7 e/s asynchrones (asynchronousfilechannel)
+  - 22.8 service de surveillance (watch service)
+- chapitre 23: sérialisation et désérialisation
+  - 23.1 interface serializable
+  - 23.2 serialversionuid
+  - 23.3 sérialisation personnalisée (writeobject, readobject)
+  - 23.4 interface externalizable
+  - 23.5 traitement json et xml (jackson, jaxb)
+- chapitre 24: threads et runnables
+  - 24.1 créer des threads (classe thread, interface runnable)
+  - 24.2 cycle de vie d’un thread (new, runnable, blocked, waiting, timed waiting, terminated)
+  - 24.3 méthodes de thread (start, join, sleep, yield, interrupt)
+  - 24.4 threads daemon
+  - 24.5 priorités de threads
+  - 24.6 groupes de threads
+- chapitre 25: synchronisation et verrous
+  - 25.1 conditions de concurrence et sections critiques
+  - 25.2 méthodes et blocs synchronisés
+  - 25.3 verrous intrinsèques (moniteurs)
+  - 25.4 mot‑clé volatile
+  - 25.5 interblocage (deadlock), famine (starvation) et livelock
+  - 25.6 paquetage java.util.concurrent.locks
+  - 25.6.1 lock, reentrantlock
+  - 25.6.2 readwritelock, reentrantreadwritelock
+  - 25.6.3 stampedlock
+  - 25.7 objets condition
+- chapitre 26: utilitaires de concurrence de haut niveau
+  - 26.1 framework executor
+  - 26.1.1 executor, executorservice, scheduledexecutorservice
+  - 26.1.2 threadpoolexecutor, scheduledthreadpoolexecutor
+  - 26.1.3 méthodes d’usine de executors
+  - 26.1.4 callable et future
+  - 26.1.5 completionservice et executorcompletionservice
+  - 26.2 framework fork/join (forkjoinpool, recursivetask, recursiveaction)
+  - 26.3 collections concurrentes (concurrenthashmap, copyonwritearraylist, implémentations de blockingqueue)
+  - 26.4 variables atomiques (java.util.concurrent.atomic)
+  - 26.5 synchroniseurs (countdownlatch, cyclicbarrier, semaphore, phaser, exchanger)
+- chapitre 27: modèle mémoire java et sécurité des threads
+  - 27.1 modèle mémoire java (jmm)
+  - 27.2 relation happens‑before
+  - 27.3 objets immuables
+  - 27.4 variables threadlocal
+  - 27.5 stratégies de sécurité des threads
+- chapitre 28: expressions lambda
+  - 28.1 introduction aux lambdas
+  - 28.2 syntaxe et types (interfaces fonctionnelles)
+  - 28.3 références de méthodes (class::staticmethod, instance::method, class::new)
+  - 28.4 interfaces fonctionnelles prédéfinies (java.util.function)
+  - 28.4.1 predicate, function, consumer, supplier
+  - 28.4.2 spécialisations primitives (intpredicate, etc.)
+  - 28.5 capture de variables (effectively final)
+- chapitre 29: stream api
+  - 29.1 création de streams (depuis collections, tableaux, fichiers, stream.of, generate, iterate)
+  - 29.2 opérations intermédiaires
+  - 29.2.1 filter, map, flatmap, distinct, sorted, peek, limit, skip
+  - 29.3 opérations terminales
+  - 29.3.1 foreach, toarray, reduce, collect, min, max, count, anymatch, allmatch, nonematch, findfirst, findany
+  - 29.4 collecteurs (tolist, toset, tomap, groupingby, partitioningby, joining, summarizingint, etc.)
+  - 29.5 streams parallèles
+  - 29.6 considérations de performance
+  - 29.7 streams primitifs (intstream, longstream, doublestream)
+- chapitre 30: classe optional
+  - 30.1 qu’est‑ce que optional ?
+  - 30.2 créer des optionals (of, ofnullable, empty)
+  - 30.3 méthodes de optional (ispresent, ifpresent, orelse, orelseget, oreelsethrow, map, flatmap, filter)
+  - 30.4 bonnes pratiques (éviter optional pour les champs, sérialisation, etc.)
+- chapitre 31: réflexion
+  - 31.1 l’objet class et le chargement des classes
+  - 31.2 inspecter les classes (getfields, getmethods, getconstructors, getdeclaredfields, etc.)
+  - 31.3 accéder aux membres privés (setaccessible)
+  - 31.4 invocation dynamique (method.invoke)
+  - 31.5 créer des instances dynamiquement (newinstance)
+  - 31.6 tableaux via la réflexion
+  - 31.7 réflexion et performance
+- chapitre 32: annotations
+  - 32.1 que sont les annotations ?
+  - 32.2 annotations prédéfinies (@override, @deprecated, @suppresswarnings, @functionalinterface)
+  - 32.3 méta‑annotations (@retention, @target, @inherited, @documented)
+  - 32.4 créer des annotations personnalisées
+  - 32.5 traiter les annotations à l’exécution (réflexion)
+  - 32.6 traitement des annotations à la compilation (abstractprocessor)
+- chapitre 33: génériques (approfondissement)
+  - 33.1 paramètres de type et arguments de type
+  - 33.2 classes et interfaces génériques
+  - 33.3 méthodes et constructeurs génériques
+  - 33.4 paramètres de type bornés (extends)
+  - 33.5 wildcards (?, ? extends t, ? super t)
+  - 33.6 effacement des types et méthodes bridge
+  - 33.7 restrictions sur les génériques
+  - 33.8 capture de wildcard et méthodes auxiliaires
+- chapitre 34: modules (java platform module system)
+  - 34.1 introduction aux modules
+  - 34.2 module‑info.java (module, exports, requires, opens, provides, uses)
+  - 34.3 jars modulaires
+  - 34.4 pattern service loader (provides ... with ..., serviceloader)
+  - 34.5 migration et modules non nommés
+- chapitre 35: internes de la jvm et performance
+  - 35.1 architecture de la jvm (chargeur de classes, zones de données runtime, moteur d’exécution)
+  - 35.2 ramasse‑miettes (garbage collection)
+  - 35.2.1 algorithmes gc (mark‑sweep, copying, mark‑compact)
+  - 35.2.2 gc générationnel
+  - 35.2.3 implémentations gc (serial, parallel, cms, g1, zgc, shenandoah)
+  - 35.3 réglage de la jvm (taille du tas, journalisation gc, etc.)
+  - 35.4 bytecode et structure des fichiers de classe
+  - 35.5 compilation just‑in‑time (jit)
+  - 35.6 profilage et surveillance (jconsole, jvisualvm, java flight recorder, mission control)
+- chapitre 36: sécurité
+  - 36.1 modèle de sécurité java (sandbox, permissions)
+  - 36.2 chargeurs de classes et sécurité
+  - 36.3 security manager (obsolète) et fichiers de stratégie
+  - 36.4 cryptographie (java.security, jca, jce)
+  - 36.5 ssl/tls (javax.net.ssl)
+  - 36.6 authentification et autorisation (jaas)
+  - 36.7 directives de codage sécurisé (validation des entrées, échappement, prévention des injections sql)
+- chapitre 37: internationalisation (i18n)
+  - 37.1 classe locale
+  - 37.2 resourcebundle et fichiers properties
+  - 37.3 formatage des nombres et devises (numberformat)
+  - 37.4 formatage des dates et heures (dateformat, datetimeformatter)
+  - 37.5 messageformat et choiceformat
+  - 37.6 unicode et encodage des caractères
+- chapitre 38: réseau
+  - 38.1 programmation socket (java.net.socket, serversocket)
+  - 38.2 url et urlconnection (httpurlconnection)
+  - 38.3 sockets datagram (udp)
+  - 38.4 inetaddress
+  - 38.5 http client (java 11+)
+  - 38.5.1 httpclient, httprequest, httpresponse
+  - 38.5.2 requêtes synchrones et asynchrones
+  - 38.5.3 support http/2
+  - 38.6 rmi (remote method invocation) – aperçu
+- chapitre 39: accès aux bases de données (jdbc)
+  - 39.1 architecture jdbc
+  - 39.2 connexion à une base de données (drivermanager, datasource)
+  - 39.3 statement, preparedstatement, callablestatement
+  - 39.4 resultset et rowset
+  - 39.5 transactions (commit, rollback, savepoints)
+  - 39.6 pool de connexions (hikaricp, etc.)
+  - 39.7 frameworks orm (jpa, hibernate) – aperçu
+- chapitre 40: java pour l’entreprise (aperçu)
+  - 40.1 servlets et jsp
+  - 40.2 spring framework (core, boot, mvc)
+  - 40.3 java ee / jakarta ee (ejb, jms, cdi, jta)
+  - 40.4 microservices (spring cloud, micronaut, quarkus)
+  - 40.5 outils de construction (maven, gradle)
+- chapitre 41: tests unitaires avec junit
+  - 41.1 junit 5 (jupiter)
+  - 41.2 cycle de vie des tests (@beforeeach, @aftereach, @beforeall, @afterall)
+  - 41.3 assertions (assertequals, asserttrue, assertthrows, etc.)
+  - 41.4 hypothèses (assumetrue)
+  - 41.5 tests paramétrés
+  - 41.6 tests répétés
+  - 41.7 suites de tests
+  - 41.8 mocking avec mockito
+  - 41.8.1 créer des mocks
+  - 41.8.2 stubbing et vérification
+  - 41.8.3 matchers d’arguments
+- chapitre 42: débogage et journalisation
+  - 42.1 débogage avec les ide (points d’arrêt, pas à pas, évaluation)
+  - 42.2 frameworks de journalisation (java.util.logging, log4j, slf4j, logback)
+  - 42.3 configuration et appenders
+  - 42.4 bonnes pratiques pour la journalisation
+  - 42.5 utilisation de jdb (java debugger)
+- chapitre 43: qualité du code et linting
+  - 43.1 conventions de codage (java code conventions)
+  - 43.2 outils d’analyse statique (checkstyle, pmd, spotbugs)
+  - 43.3 formateurs de code (formateur intellij, formateur eclipse)
+  - 43.4 linting dans les ide
+  - 43.5 intégration continue (jenkins, github actions)
+- chapitre 44: patrons de conception en java
+  - 44.1 patrons de création
+  - 44.1.1 singleton (classique et basé sur enum)
+  - 44.1.2 factory method
+  - 44.1.3 abstract factory
+  - 44.1.4 builder
+  - 44.1.5 prototype
+  - 44.2 patrons structurels
+  - 44.2.1 adapter
+  - 44.2.2 decorator
+  - 44.2.3 proxy (proxies dynamiques)
+  - 44.2.4 facade
+  - 44.2.5 bridge
+  - 44.2.6 composite
+  - 44.2.7 flyweight
+  - 44.3 patrons comportementaux
+  - 44.3.1 observer (observable, observer – obsolète, propertychangelistener)
+  - 44.3.2 strategy
+  - 44.3.3 command
+  - 44.3.4 template method
+  - 44.3.5 iterator
+  - 44.3.6 mediator
+  - 44.3.7 memento
+  - 44.3.8 state
+  - 44.3.9 visitor
+  - 44.3.10 chain of responsibility
+- chapitre 45: fuites de mémoire et profilage
+  - 45.1 motifs courants de fuites mémoire
+  - 45.2 utilisation de visualvm, jprofiler, yourkit
+  - 45.3 dumps de tas et analyse (eclipse memory analyzer)
+  - 45.4 analyse des journaux gc
+  - 45.5 dumps de threads et détection d’interblocage
+
+</FileTree>

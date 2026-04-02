@@ -1,0 +1,22 @@
+{
+  "name": "java-book",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "A book about Java – from basics to advanced topics",
+  "author": "adnen rebai <adnen.rebai@gmail.com> (https://adnenre.dev)",
+  "homepage": "https://v0-java-book.vercel.app/",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/starlight": "^0.37.6",
+    "astro": "^5.6.1",
+    "node-html-parser": "^7.0.2",
+    "sharp": "^0.34.2",
+    "starlight-theme-galaxy": "^0.7.0"
+  }
+}
