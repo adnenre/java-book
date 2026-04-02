@@ -2,7 +2,7 @@
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
 import starlightThemeGalaxy from "starlight-theme-galaxy";
-import vercel from "@astrojs/vercel";
+
 // https://astro.build/config
 export default defineConfig({
   site: "https://adnenre.github.io/Java-book",
@@ -3143,6 +3143,4 @@ export default defineConfig({
       ],
     }),
   ],
-
-  adapter: vercel(),
 });
