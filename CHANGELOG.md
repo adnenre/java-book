@@ -37,3 +37,19 @@ All notable changes to this Java book are documented in this file. Each chapter 
   - 2.5 variable scope and lifetime
   - 2.6 default values of primitives
   - 2.7 wrapper classes (integer, double, boolean, etc.) and autoboxing/unboxing
+
+    ## [Version 1.3.0] - 2024-04-3
+
+### Added
+
+- chapter 3: operators and expressions
+  - 3.1 arithmetic operators
+  - 3.2 assignment operators
+  - 3.3 relational operators
+  - 3.4 equality operators
+  - 3.5 logical operators
+  - 3.6 bitwise operators
+  - 3.7 ternary operator
+  - 3.8 unary operators
+  - 3.9 operator precedence and associativity
+  - 3.10 string concatenation (+)
