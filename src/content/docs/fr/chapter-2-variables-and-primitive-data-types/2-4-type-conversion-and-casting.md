@@ -1,11 +1,8 @@
 ---
----
-
 title: Conversion de type et casting
 sidebar:
-order: 8
-label: 2.4 Conversion de type et casting
-
+  order: 8
+  label: 2.4 Conversion de type et casting
 ---
 
 ## Conversion de type
