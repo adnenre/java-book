@@ -18,3 +18,22 @@ All notable changes to this Java book are documented in this file. Each chapter 
   - 1.7 understanding the java platform (jvm, bytecode)
   - 1.8 java editions (se, ee, me)
   - 1.9 java version history and features
+
+  ## [Version 1.1.0] - 2024-04-3
+
+### Added
+
+- **chapter 2: variables and primitive data types**
+  - 2.1 variables and identifiers
+  - 2.2 primitive data types
+  - 2.2.1 integer types (byte, short, int, long)
+  - 2.2.2 floating‑point types (float, double)
+  - 2.2.3 character type (char)
+  - 2.2.4 boolean type (boolean)
+  - 2.3 literals and constants (final)
+  - 2.4 type conversion and casting
+  - 2.4.1 implicit (widening) conversion
+  - 2.4.2 explicit (narrowing) casting
+  - 2.5 variable scope and lifetime
+  - 2.6 default values of primitives
+  - 2.7 wrapper classes (integer, double, boolean, etc.) and autoboxing/unboxing
