@@ -1,8 +1,8 @@
 ---
 title: Functional interfaces and @FunctionalInterface
 sidebar:
-order: 7
-label: 8.7 Functional interfaces and @FunctionalInterface
+  order: 7
+  label: 8.7 Functional interfaces and @FunctionalInterface
 ---
 
 A **functional interface** is an interface that contains exactly one abstract method. They are the foundation for lambda expressions (introduced in Java 8).
