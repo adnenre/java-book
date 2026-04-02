@@ -6,7 +6,7 @@ Welcome to the **Java: The Complete Guide** repository. This project is a compre
 
 ## 🌐 Discovering the Book
 
-- **Read online**: The book is published at [Java-book](https://v0-Java-book.vercel.app/) .
+- **Read online**: The book is published at [java-book](https://v0-java-book.vercel.app/) .
 - **Explore the content**: All chapters are written in Markdown and located in the `src/content/docs/` directory. You can browse them directly on GitHub.
 - **Changelog**: See [`CHANGELOG.md`](./CHANGELOG.md) for a versioned history of all chapters and updates.
 
@@ -23,8 +23,8 @@ To run the documentation site locally and see the book in action:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/Java-book.git
-   cd Java-book
+   git clone https://github.com/your-username/java-book.git
+   cd java-book
    ```
 2. **Install dependencies**
 

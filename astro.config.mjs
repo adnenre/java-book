@@ -5,14 +5,14 @@ import starlightThemeGalaxy from "starlight-theme-galaxy";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://adnenre.github.io/Java-book",
+  site: "https://adnenre.github.io/java-book",
   base: ".",
 
   integrations: [
     starlight({
       plugins: [starlightThemeGalaxy()],
       title: { en: "Java Book", fr: "Java Livre" },
-      social: [{ icon: "github", label: "GitHub", href: "https://github.com/adnenre/Java-book/" }],
+      social: [{ icon: "github", label: "GitHub", href: "https://github.com/adnenre/java-book/" }],
       defaultLocale: "en",
       locales: {
         // English docs in `src/content/docs/en/`
