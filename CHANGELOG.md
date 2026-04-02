@@ -92,3 +92,18 @@ All notable changes to this Java book are documented in this file. Each chapter 
   - 5.9 final keyword (final variables, methods, classes)
   - 5.10 garbage collection and finalize() method
   - 5.11 object lifecycle
+
+## [Version 1.6.1] - 2024-04-3
+
+### Added
+
+- chapter 6: methods deep dive
+  - 6.1 method signature and overloading
+  - 6.2 passing parameters (pass‑by‑value)
+  - 6.3 varargs (variable‑length arguments)
+  - 6.4 returning values
+  - 6.5 recursion
+  - 6.5.1 base case and recursive case
+  - 6.5.2 recursion vs iteration
+  - 6.6 method hiding (static methods)
+  - 6.7 native methods (native keyword)
